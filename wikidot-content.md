@@ -1,8 +1,9 @@
 # The Dual Nature of AI in Cybersecurity
 
-**Milo Stroik**  
+**Author:** Milo Stroik
+**Date:** February 23, 2025
 
-**February 23, 2025**
+[[toc]]
 
 ## Introduction
 
@@ -96,7 +97,7 @@ Non-LLM AI systems can be tricked by inputs crafted specifically to deceive them
 
 #### Prompt Injection and LLM Exploitation
 
-Prompt injection attacks involve manipulating the input given to an LLM (often via cleverly crafted instructions) to bypass its intended behavior or safety controls, and researchers and threat actors have shown that it's possible to coerce LLMs into ignoring their safety filters by splitting. Such techniques could be used to make an AI system reveal confidential information or assist in wrongdoing, and these risks will likely be more significant as we develop AI “agents” that handle more and more important tasks (Valencia, 2024).
+Prompt injection attacks involve manipulating the input given to an LLM (often via cleverly crafted instructions) to bypass its intended behavior or safety controls, and researchers and threat actors have shown that it's possible to coerce LLMs into ignoring their safety filters by splitting. Such techniques could be used to make an AI system reveal confidential information or assist in wrongdoing, and these risks will likely be more significant as we develop AI "agents" that handle more and more important tasks (Valencia, 2024).
 
 #### Data Poisoning
 
@@ -124,62 +125,32 @@ The increasing autonomy of AI systems raises concerns about control and accounta
 
 The evolving cyber arms race may be inevitable, but with careful management, the cybersecurity community can ensure that AI remains more of an asset than a liability in the never-ending battle to secure the digital world. Success in the cybersecurity domain will likely belong to those who can effectively harness AI's power and maintain vigilant control over it, balancing innovation with appropriate safeguards, transparency, and human oversight.
 
----
-
 ## References
 
-Bradley, T. (2024, December 20). *The Rise of Agentic AI: How Hyper-Automation is Reshaping Cybersecurity and the Workforce*. Retrieved February 21, 2025, from TechSpective website: <https://techspective.net/2024/12/20/rise-of-agentic-ai-how-hyper-automation-is-reshaping-cybersecurity>
+Bradley, T. (2024, December 20). *The Rise of Agentic AI: How Hyper-Automation is Reshaping Cybersecurity and the Workforce*. Retrieved February 21, 2025, from TechSpective website: https://techspective.net/2024/12/20/rise-of-agentic-ai-how-hyper-automation-is-reshaping-cybersecurity
 
-This article examines the evolution from predictive and generative AI to agentic AI in cybersecurity contexts. It defines agentic AI as autonomous systems capable of understanding tasks, making decisions, and acting with minimal human input. The piece includes expert perspectives on how AI is transitioning from simply executing workflows to autonomously orchestrating and completing complex tasks while collaborating across domains. This source is especially valuable for the future implications section, illustrating the trajectory toward increasingly autonomous security systems. The article also addresses the changing relationship between humans and AI systems, which relates to ethical considerations around AI deployment.
+Carlini, N., Tramèr, F., Wallace, E., Jagielski, M., Herbert-Voss, A., Lee, K., Roberts, A., Brown, T., Song, D., Erlingsson, Ú., Oprea, A., & Raffel, C. (2021). Extracting training data from large language models. In *30th USENIX Security Symposium* (USENIX Security 21) (pp. 2633-2650). USENIX Association. https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting
 
-Carlini, N., Tramèr, F., Wallace, E., Jagielski, M., Herbert-Voss, A., Lee, K., Roberts, A., Brown, T., Song, D., Erlingsson, Ú., Oprea, A., & Raffel, C. (2021). Extracting training data from large language models. In *30th USENIX Security Symposium* (USENIX Security 21) (pp. 2633-2650). USENIX Association. <https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting>
+Chowdhury, A. G., Islam, M. M., Kumar, V., Shezan, Faysal Hossain, Kumar, V., Jain, V., & Chadha, A. (2024). *Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models*. Retrieved February 16, 2025, from ArXiv.org: https://arxiv.org/abs/2403.04786
 
-This research demonstrates a critical vulnerability of large language models by showing how adversaries can extract specific training data through careful querying. The paper provides concrete evidence that larger models are more vulnerable to this type of attack, raising significant privacy concerns. The researchers extracted personally identifiable information, conversations, code, and other sensitive data from GPT-2, despite each extracted sequence appearing in just one training document. This work is directly relevant to the privacy and data leakage risks section, highlighting how AI models can inadvertently memorize and expose sensitive information. The authors also discuss potential safeguards for training large language models.
+Darraj, E., Sample, C., & Justice, C. (2019). *Artificial Intelligence Cybersecurity Framework: Preparing for the Here and now With AI*. Academic Conferences International Limited. https://www.proquest.com/docview/2261017088
 
-Chowdhury, A. G., Islam, M. M., Kumar, V., Shezan, Faysal Hossain, Kumar, V., Jain, V., & Chadha, A. (2024). *Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models*. Retrieved February 16, 2025, from ArXiv.org: <https://arxiv.org/abs/2403.04786>
+European Union. (2024). Regulation (EU) 2024/1689 of the European Parliament and of the Council on artificial intelligence (Artificial Intelligence Act), Article 15. *Official Journal of the European Union*, https://artificialintelligenceact.eu/article/15/
 
-This survey examines key security issues with LLMs, making it relevant to my "Vulnerabilities and Risks" section, and provides a broader view of potential LLM vulnerabilities and attacks compared to Leroy (2024). It details both specific attacks and their practical impacts, which helps explain the security implications for AI systems. The paper's sections on defense strategies and data poisoning directly connect to my discussion of data protection and emerging challenges.
+FBI San Francisco. (2024). FBI Warns of Increasing Threat of Cyber Criminals Utilizing Artificial Intelligence | Federal Bureau of Investigation. Retrieved February 20, 2025, from Federal Bureau of Investigation website: https://www.fbi.gov/contact-us/field-offices/sanfrancisco/news/fbi-warns-of-increasing-threat-of-cyber-criminals-utilizing-artificial-intelligence
 
-Darraj, E., Sample, C., & Justice, C. (2019). *Artificial Intelligence Cybersecurity Framework: Preparing for the Here and now With AI*. Academic Conferences International Limited. <https://www.proquest.com/docview/2261017088>
+Fortinet. (2023). *How Artificial Intelligence (AI) Can Help in Discovering Unknown Cybersecurity Threats*. Retrieved February 22, 2025, from Fortinet website: https://www.fortinet.com/resources/cyberglossary/artificial-intelligence-in-cybersecurity
 
-This research is crucial for understanding the systematic approach needed for AI security implementation. It introduces the concept of AI Dev/Sec/Ops and provides a structured framework for addressing AI security concerns, making it particularly relevant for organizations implementing AI systems. The paper's identification of twenty AI cybersecurity issues and discussion of threat forecasting offers practical insights for developing comprehensive security measures for AI systems, especially relevant to the "Security Aspects" section of our outline.
+Kalva, R. (2025, January 10). Next-Gen AI Cybersecurity: Reshape Digital Defense | CSA. Retrieved February 20, 2025, from Cloudsecurityalliance.org website: https://cloudsecurityalliance.org/blog/2025/01/10/next-gen-cybersecurity-with-ai-reshaping-digital-defense
 
-European Union. (2024). Regulation (EU) 2024/1689 of the European Parliament and of the Council on artificial intelligence (Artificial Intelligence Act), Article 15. *Official Journal of the European Union*, <https://artificialintelligenceact.eu/article/15/>
+Long, Z., Yan, H., Shen, G., Zhang, X., He, H., & Cheng, L. (2024). A Transformer-based network intrusion detection approach for cloud security. *Journal of Cloud Computing,* *13*(1), 5. https://doi.org/10.1186/s13677-023-00574-9
 
-This legislation establishes specific requirements for high-risk AI systems regarding their technical accuracy, resilience to attacks, and overall cybersecurity posture. The Article mandates that high-risk AI systems must be created with appropriate levels of accuracy and robust against attempts to exploit vulnerabilities. It requires implementers to establish safeguards against manipulation of AI systems, particularly those used in critical infrastructure or security applications. This source is essential to understanding the emerging regulatory landscape for AI in cybersecurity, especially in the European context. The specific requirements outlined connect directly to both the regulatory frameworks section and the security aspects and challenges of implementing AI systems.
+Park, S. (2024). Bridging the Global Divide in AI Regulation: A Proposal for a Contextual, Coherent, and Commensurable Framework. *Washington International Law Journal,* *33*(2), 216-269. http://mutex.gmu.edu/login?url=https://www.proquest.com/scholarly-journals/bridging-global-divide-ai-regulation-proposal/docview/3109480667/se-2
 
-FBI San Francisco. (2024). FBI Warns of Increasing Threat of Cyber Criminals Utilizing Artificial Intelligence | Federal Bureau of Investigation. Retrieved February 20, 2025, from Federal Bureau of Investigation website: <https://www.fbi.gov/contact-us/field-offices/sanfrancisco/news/fbi-warns-of-increasing-threat-of-cyber-criminals-utilizing-artificial-intelligence>
+Nana, S. R., Didier Bassole, Guel, D., & Sie, O. (2024). Deep Learning and Web Applications Vulnerabilities Detection: An Approach Based on Large Language Models. *International Journal of Advanced Computer Science and Applications, 15*(7) https://doi.org/10.14569/ijacsa.2024.01507135
 
-This warning from the FBI highlights the growing threat of cybercriminals leveraging AI tools to conduct more sophisticated attacks. It details how AI enhances attack capabilities by increasing speed, scale, and automation of malicious activities. The alert specifically mentions AI-driven phishing campaigns that are more convincing due to proper grammar and personalization, as well as AI-powered voice and video cloning techniques used to impersonate trusted individuals. This source provides official confirmation of AI-powered cyberattacks, making it relevant to the emerging security risks section. The warning demonstrates how the same AI technologies that strengthen defenses are being weaponized by adversaries.
+Sircar, T. (2024). *The European Data Protection Board Releases Opinion on Artificial Intelligence*. Natlawreview.com; National Law Review. https://natlawreview.com/article/european-data-protection-board-releases-opinion-artificial-intelligence
 
-Fortinet. (2023). *How Artificial Intelligence (AI) Can Help in Discovering Unknown Cybersecurity Threats*. Retrieved February 22, 2025, from Fortinet website: <https://www.fortinet.com/resources/cyberglossary/artificial-intelligence-in-cybersecurity>
+Valencia, L. J. (2024, May 9). *Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security*. ArXiv.org. https://doi.org/10.48550/arXiv.2406.07561
 
-This site explores how AI enhances cybersecurity systems through automation, pattern recognition, and adaptive learning capabilities. It emphasizes AI's role in automating routine security tasks like log analysis and vulnerability scanning, freeing human analysts to focus on more complex strategic activities. The document highlights how AI-powered systems provide real-time threat detection and response capabilities beyond human limitations. It is relevant to the defensive applications section, demonstrating concrete ways AI strengthens cybersecurity postures. It also discusses AI's ability to adapt and evolve against emerging threats, connecting to the future implications of AI in security.
-
-Kalva, R. (2025, January 10). Next-Gen AI Cybersecurity: Reshape Digital Defense | CSA. Retrieved February 20, 2025, from Cloudsecurityalliance.org website: <https://cloudsecurityalliance.org/blog/2025/01/10/next-gen-cybersecurity-with-ai-reshaping-digital-defense>
-
-This article explores how AI integration transforms cybersecurity frameworks through enhanced threat detection, predictive analytics, and automated response capabilities. It examines AI's advantages over traditional rule-based security measures, particularly when confronting sophisticated, AI-driven attacks from cybercriminals. The piece specifically addresses AI applications in securing Internet of Things (IoT) networks and building adaptive defense systems for dynamic IT environments. This source is particularly relevant to the defensive applications section, providing concrete examples of AI's role in modern security strategies. The article's focus on practical implementation strategies offers insights for organizations looking to develop resilient, AI-powered security postures in response to evolving threats.
-
-Long, Z., Yan, H., Shen, G., Zhang, X., He, H., & Cheng, L. (2024). A Transformer-based network intrusion detection approach for cloud security. *Journal of Cloud Computing,* *13*(1), 5. <https://doi.org/10.1186/s13677-023-00574-9>
-
-This research demonstrates an application of AI (specifically the "transformer" architecture, which is the same architecture as LLMs) for strengthening cloud security systems. The paper is relevant to my topic as it showcases how modern AI architectures can be used for cybersecurity applications, especially related to network security, with their model achieving high accuracy in threat detection. It discusses how certain components of many LLMs (like they way they are designed to pay attention to difference aspects of language) can be used for security applications in cloud environments like finding breaches.
-
-Park, S. (2024). Bridging the Global Divide in AI Regulation: A Proposal for a Contextual, Coherent, and Commensurable Framework. *Washington International Law Journal,* *33*(2), 216-269. <http://mutex.gmu.edu/login?url=https://www.proquest.com/scholarly-journals/bridging-global-divide-ai-regulation-proposal/docview/3109480667/se-2>
-
-This paper is not just about AI's cybersecurity implications, but it is relevant for understanding the importance of regulation around AI security and safety, especially the pros and cons of high-level vs. more context-specific approaches to regulation. It discusses how different regions are approaching AI governance (like the EU's AI Act), which impacts how organizations must implement cybersecurity measures for AI systems (especially related to data privacy). In particular, it has a lot of insights regarding data security related to AI and LLMs, like in the healthcare industry. The paper categorizes AI tasks which provides a useful structure for considering risks and different security implications and requirements as generative AI advances.
-
-Nana, S. R., Didier Bassole, Guel, D., & Sie, O. (2024). Deep Learning and Web Applications Vulnerabilities Detection: An Approach Based on Large Language Models. *International Journal of Advanced Computer Science and Applications, 15*(7) <https://doi.org/10.14569/ijacsa.2024.01507135>
-
-This paper directly highlights AI as a security solution, specifically going over how LLMs can be used to enhance the security of web applications. It's especially relevant to my topic as it shows both an opportunity with AI (using LLMs for vulnerability detection) and implicitly points security risks with AI (the growing complexity of web applications, using AI for hacking, and the challenges of traditional security methods). The paper also highlights an important limitation of traditional machine learning approaches to web security - the need for large, current datasets - and discusses how LLMs might overcome this limitation since they already have a lot of knowledge and data embedded in them.
-
-Sircar, T. (2024). *The European Data Protection Board Releases Opinion on Artificial Intelligence*. Natlawreview.com; National Law Review. <https://natlawreview.com/article/european-data-protection-board-releases-opinion-artificial-intelligence>
-
-This article summarizes the European Data Protection Board's opinion on how GDPR applies to artificial intelligence systems. It outlines the three-step test for using legitimate interest as a legal basis for AI model training, highlighting regulatory expectations for AI developers. The opinion specifically supports using AI for threat detection and cybersecurity under legitimate interest while emphasizing the need for careful risk assessments and adherence to GDPR principles. This source is particularly relevant to the regulatory frameworks section, providing concrete guidance on balancing security benefits with privacy compliance. The article also addresses governance practices like regular audits and documentation that organizations should implement when deploying AI security systems.
-
-Valencia, L. J. (2024, May 9). *Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security*. ArXiv.org. <https://doi.org/10.48550/arXiv.2406.07561>
-
-This paper is particularly relevant as it demonstrates the dual-use nature of AI in cybersecurity through the development of ReaperAI, an AI system designed for offensive security testing. It highlights both the potential benefits (improved penetration testing and vulnerability detection) and risks (potential misuse) of autonomous AI systems in cybersecurity. The paper's discussion of RAG and advanced prompting techniques provides valuable insights into how AI systems might be used both defensively and offensively in cybersecurity contexts, making it especially relevant to discussions of future security implications of AI.
-
-Watney, M. M. (2020). Artificial Intelligence and its Legal Risk to Cybersecurity. Academic Conferences International Limited. <https://pure.uj.ac.za/en/publications/artificial-intelligence-and-its-legal-risk-to-cybersecurity>
-
-This paper provides crucial insights into the legal and financial implications of AI in cybersecurity, particularly relevant to our discussion of regulatory frameworks and risk management. Its analysis of both beneficial and harmful uses of AI in cybersecurity, along with its emphasis on preventative approaches and multi-stakeholder cooperation, offers important perspectives on how to address AI security challenges comprehensively. The paper's discussion of potential annual cybercrime losses provides concrete context for the importance of proper AI security measures.
+Watney, M. M. (2020). Artificial Intelligence and its Legal Risk to Cybersecurity. Academic Conferences International Limited. https://pure.uj.ac.za/en/publications/artificial-intelligence-and-its-legal-risk-to-cybersecurity
