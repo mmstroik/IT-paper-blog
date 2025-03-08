@@ -26,7 +26,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1140px; /* Increased to account for TOC width */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -34,6 +34,7 @@ body {
 .main-container {
     display: flex;
     position: relative;
+    justify-content: flex-start; /* Align items to the start */
 }
 
 header {
@@ -57,6 +58,7 @@ header h1 {
 /* Table of Contents Styles */
 .toc {
     width: var(--toc-width);
+    min-width: var(--toc-width);
     background-color: var(--toc-bg);
     padding: 20px;
     border-radius: 5px;
@@ -66,11 +68,22 @@ header h1 {
     position: sticky;
     top: 20px;
     overflow-y: auto;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .toc-collapsed {
-    transform: translateX(calc(-1 * var(--toc-width) + 30px));
+    width: 50px;
+    min-width: 50px;
+    padding: 20px 5px;
+    overflow: hidden;
+}
+
+.toc-collapsed #toc-content {
+    display: none;
+}
+
+.toc-collapsed .toc-header h3 {
+    display: none;
 }
 
 .toc-header {
@@ -147,8 +160,9 @@ header h1 {
 
 /* Main content styles */
 main {
-    flex: 1;
-    min-width: 0; /* Prevent content from overflowing */
+    flex: 0 0 auto; /* Don't grow, don't shrink, use auto size */
+    width: 850px; /* Fixed width */
+    transition: all 0.3s ease;
 }
 
 .blog-content {
